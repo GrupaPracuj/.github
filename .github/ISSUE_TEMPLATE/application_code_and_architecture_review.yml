@@ -1,0 +1,45 @@
+name: "Przegląd aplikacji - Weryfikacja NFR"
+description: "Zgłoś przegląd aplikacji"
+title: "Przegląd aplikacji - Weryfikacja NFR"
+assignees:
+  - newpma
+  - Lesio777
+  - pats
+  - aveselskiy
+  - michalsgp
+  - gazdzinskak
+  - mptasinski
+  - aburdalski-gp
+  - dchytkowski
+  - maciejrozek
+  - marta0703
+body:
+  - type: checkboxes
+    id: nfr-checklist
+    attributes:
+      label: Potwierdź dodanie właściwych checklist NFR
+      options:
+        - label: Potwierdzam, że dodałem i wypełniłem checklisty NFR security.
+          required: true
+        - label: Potwierdzam, że dodałem i wypełniłem checklisty NFRy właściwe dla technologii.
+          required: true
+  - type: textarea    
+    attributes:
+      label: "Ścieżki do projektu w Team City:"
+  - type: textarea    
+    attributes:
+      label: "Ścieżki do projektu w Sonarqube:"
+  - type: textarea    
+    attributes:
+      label: "Ścieżki do konfiguracji w Azure (jeśli jest wykorzystywany):"
+  - type: textarea
+    attributes:
+      label: "Jeśli weryfikacja nie dotyczy całego repozytorium należy określić projekty:"  
+  - type: input
+    attributes:
+      label: "Nazwa projektu w Sentry (jeśli jest wykorzystywany):"
+  - type: textarea
+    attributes:
+      label: "Dodatkowe informacje:"
+
+      
