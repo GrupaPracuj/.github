@@ -1,0 +1,9 @@
+name: Czasowe wykluczenie wybranych punktów NFR
+description: Czasowe wykluczenie wybranych punktów NFR
+title: "Czasowe wykluczenie wybranych punktów NFR"
+body:
+- type: textarea
+  attributes:
+    label: Podaj checklisty nfr i numery punktów, które czasowo są wykluczone
+assignees:
+  - kampiech

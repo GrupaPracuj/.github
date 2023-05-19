@@ -1,0 +1,6 @@
+name: New issue
+description: New issue
+body:
+- type: textarea
+  attributes:
+    label: Description
