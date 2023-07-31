@@ -5,7 +5,6 @@ assignees:
   - newpma
   - Lesio777
   - pats
-  - aveselskiy
   - michalsgp
   - gazdzinskak
   - mptasinski
@@ -13,6 +12,7 @@ assignees:
   - dchytkowski
   - maciejrozek
   - marta0703
+  - appsec-GP
 body:
   - type: checkboxes
     id: nfr-checklist
