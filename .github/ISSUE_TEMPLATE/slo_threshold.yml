@@ -1,7 +1,7 @@
 
-name: Wniosek o Obniżenie Thresholdu SLO
+name: Wniosek o Obniżenie progu SLO
 description: Template do zgłaszania wniosku o obniżenie progu SLO
-title: "[Wniosek] Obniżenie Thresholdu SLO dla aplikacji"
+title: "[Wniosek] Obniżenie progu SLO dla aplikacji"
 labels: ["SLO"]
 assignees:
   - newpma
@@ -13,7 +13,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        # Wniosek o Obniżenie Thresholdu SLO
+        # Wniosek o Obniżenie progu SLO
 
   - type: input
     id: name
@@ -26,21 +26,21 @@ body:
     id: summary
     attributes:
       label: "Podsumowanie analizy niespełnienia SLO"
-      description: "Opisz krótko, dlaczego aplikacja nie spełnia obecnego progu SLO"
+      description: "Opisz krótko, dlaczego aplikacja nie spełnia obecnego progu SLO oraz dlaczego nie jest możliwe lub sensowne jego osiągnięcie."
     validations:
       required: true
 
   - type: input
     id: new_threshold
     attributes:
-      label: "Propozycja nowego thresholdu"
+      label: "Propozycja nowego progu"
     validations:
       required: true
 
   - type: input
     id: duration
     attributes:
-      label: "Czas obowiązywania obniżonego thresholdu"
+      label: "Czas obowiązywania obniżonego progu"
     validations:
       required: true
       
