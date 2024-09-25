@@ -1,7 +1,7 @@
 
 name: Wniosek o Obniżenie Thresholdu SLO
 description: Template do zgłaszania wniosku o obniżenie progu SLO
-title: "[Wniosek] Obniżenie Thresholdu dla aplikacji"
+title: "[Wniosek] Obniżenie Thresholdu SLO dla aplikacji"
 labels: ["SLO"]
 assignees:
   - newpma
