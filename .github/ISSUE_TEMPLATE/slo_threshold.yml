@@ -19,8 +19,6 @@ body:
     id: name
     attributes:
       label: "Nazwa usługi"
-      description: "Podaj nazwę usłgui"
-      placeholder: "Nazwa usługi"
     validations:
       required: true
 
@@ -29,7 +27,6 @@ body:
     attributes:
       label: "Podsumowanie analizy niespełnienia SLO"
       description: "Opisz krótko, dlaczego aplikacja nie spełnia obecnego progu SLO"
-      placeholder: "Opisz przyczyny"
     validations:
       required: true
 
@@ -38,17 +35,13 @@ body:
     id: new_threshold
     attributes:
       label: "Propozycja nowego thresholdu"
-      description: "Zaproponuj nowy poziom SLO (threshold), który aplikacja może osiągnąć"
-      placeholder: "Podaj nowy threshold"
     validations:
       required: true
 
   - type: input
     id: duration
     attributes:
-      label: "Czas obowiązywania obniżonego progu"
-      description: "Określ, na jak długo ma obowiązywać nowy threshold"
-      placeholder: "Podaj czas obowiązywania"
+      label: "Czas obowiązywania obniżonego thresholdu"
     validations:
       required: true
       
