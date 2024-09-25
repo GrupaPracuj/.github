@@ -1,7 +1,7 @@
 
 name: Wniosek o obniżenie progu SLO
-description: Template do zgłaszania wniosku o obniżenie progu SLO
-title: "[Wniosek] Obniżenie progu SLO dla aplikacji"
+description: Template do zgłaszania wniosku o zmianę progu SLO
+title: "[Wniosek] Zmiana progu SLO dla aplikacji"
 labels: ["SLO"]
 assignees:
   - kampiech
@@ -10,7 +10,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        # Wniosek o obniżenie progu SLO
+        # Wniosek o zmianę progu SLO
 
   - type: input
     id: name
@@ -37,7 +37,7 @@ body:
   - type: input
     id: duration
     attributes:
-      label: "Czas obowiązywania obniżonego progu"
+      label: "Czas obowiązywania zmienionego progu"
     validations:
       required: true
       
