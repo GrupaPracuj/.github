@@ -1,0 +1,60 @@
+
+name: Wniosek o Obniżenie Thresholdu
+description: Template do zgłaszania wniosku o obniżenie progu SLO
+title: "[Wniosek] Obniżenie Thresholdu dla aplikacji"
+labels: ["SLO"]
+assignees:
+  - newpma
+  - kampiech
+  - michalsgp
+  - gazdzinskak
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Wniosek o Obniżenie Thresholdu
+
+  - type: input
+    id: name
+    attributes:
+      label: "Nazwa usługi"
+      description: "Podaj nazwę usłgui"
+      placeholder: "Nazwa usługi"
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Podsumowanie analizy niespełnienia SLO"
+      description: "Opisz krótko, dlaczego aplikacja nie spełnia obecnego progu SLO"
+      placeholder: "Opisz przyczyny"
+    validations:
+      required: true
+
+
+  - type: input
+    id: new_threshold
+    attributes:
+      label: "Propozycja nowego thresholdu"
+      description: "Zaproponuj nowy poziom SLO (threshold), który aplikacja może osiągnąć"
+      placeholder: "Podaj nowy threshold"
+    validations:
+      required: true
+
+  - type: input
+    id: duration
+    attributes:
+      label: "Czas obowiązywania obniżonego progu"
+      description: "Określ, na jak długo ma obowiązywać nowy threshold"
+      placeholder: "Podaj czas obowiązywania"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: "Dodatkowe informacje"
+      description: "Jeśli są jakieś dodatkowe informacje, które mogą mieć wpływ na decyzję, umieść je tutaj"
+      placeholder: "Podaj dodatkowe informacje (opcjonalnie)"
