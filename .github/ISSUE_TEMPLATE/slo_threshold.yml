@@ -1,19 +1,16 @@
 
-name: Wniosek o Obniżenie progu SLO
+name: Wniosek o obniżenie progu SLO
 description: Template do zgłaszania wniosku o obniżenie progu SLO
 title: "[Wniosek] Obniżenie progu SLO dla aplikacji"
 labels: ["SLO"]
 assignees:
-  - newpma
   - kampiech
-  - michalsgp
-  - gazdzinskak
 
 body:
   - type: markdown
     attributes:
       value: |
-        # Wniosek o Obniżenie progu SLO
+        # Wniosek o obniżenie progu SLO
 
   - type: input
     id: name
