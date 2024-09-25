@@ -30,7 +30,6 @@ body:
     validations:
       required: true
 
-
   - type: input
     id: new_threshold
     attributes:
@@ -49,5 +48,3 @@ body:
     id: additional_info
     attributes:
       label: "Dodatkowe informacje"
-      description: "Jeśli są jakieś dodatkowe informacje, które mogą mieć wpływ na decyzję, umieść je tutaj"
-      placeholder: "Podaj dodatkowe informacje (opcjonalnie)"
