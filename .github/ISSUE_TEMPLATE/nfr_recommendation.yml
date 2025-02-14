@@ -8,7 +8,6 @@ body:
       value: |
         # Wprowadź treść issue
 
-  - type: input
-    id: name
+  - type: textarea
     attributes:
-      label: "Treść"
+       label: Treść
