@@ -1,10 +1,14 @@
 name: "Wynik przeglądu aplikacji - rekomendacja"
 description: "Zgłoś rekomendację"
 labels: ["NFR", "recommendation"]
+
 body:
-   - type: markdown
-       attributes:
-         value: "Wprowadź treść issue"
-   - type: textarea
-       attributes:
-          label: "Description"
+  - type: markdown
+    attributes:
+      value: |
+        # Wprowadz tresc issue
+
+  - type: input
+    id: name
+    attributes:
+      label: "Treść"
