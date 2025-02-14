@@ -3,6 +3,3 @@ description: "Zgłoś rekomendację"
 labels: ["NFR", "recommendation"]
 
 body:
-  - type: textarea
-    attributes:
-       label: Treść
