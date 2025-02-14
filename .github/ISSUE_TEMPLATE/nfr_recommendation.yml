@@ -2,6 +2,7 @@ name: "Wynik przeglądu aplikacji - rekomendacja"
 description: "Zgłoś rekomendację"
 labels: ["NFR", "recommendation"]
 body:
-- type: textarea
-  attributes:
-    label: 
+- type: markdown
+    attributes:
+      value: |
+        !
