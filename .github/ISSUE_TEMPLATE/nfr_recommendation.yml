@@ -3,11 +3,6 @@ description: "Zgłoś rekomendację"
 labels: ["NFR", "recommendation"]
 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        # Wprowadź treść issue
-
   - type: textarea
     attributes:
        label: Treść
