@@ -1,0 +1,3 @@
+name: "Wynik przeglądu aplikacji - rekomendacja"
+description: "Zgłoś rekomendację"
+labels: ["NFR", "recommendation"]
