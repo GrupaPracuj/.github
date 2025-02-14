@@ -1,0 +1,13 @@
+name: "Wynik przeglądu aplikacji - krytyczne"
+description: "Zgłoś krytyczne issue"
+labels: ["NFR"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Wprowadź treść issue
+
+  - type: textarea
+    attributes:
+       label: Treść
