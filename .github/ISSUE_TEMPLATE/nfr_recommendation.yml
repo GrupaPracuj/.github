@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        # Wprowadz tresc issue
+        # Wprowadź treść issue
 
   - type: input
     id: name
