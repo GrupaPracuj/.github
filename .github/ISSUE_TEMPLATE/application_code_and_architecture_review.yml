@@ -3,15 +3,13 @@ description: "Zgłoś przegląd aplikacji"
 title: "Przegląd aplikacji - Weryfikacja NFR"
 assignees:
   - newpma
-  - Lesio777
   - pats
   - michalsgp
   - gazdzinskak
   - mptasinski
-  - dchytkowski
   - maciejrozek
-  - marta0703
   - appsec-GP
+  - trudnesprawy-GP
 body:
   - type: checkboxes
     id: nfr-checklist
