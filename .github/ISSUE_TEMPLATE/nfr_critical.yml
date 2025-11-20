@@ -5,4 +5,4 @@ labels: ["NFR", "critical"]
 body:
   - type: textarea
     attributes:
-       label: " "
+       label: Treść
