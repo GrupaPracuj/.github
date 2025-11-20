@@ -1,6 +1,6 @@
 name: "Wynik przeglądu aplikacji - krytyczne"
 description: "Zgłoś krytyczne issue"
-labels: ["NFR"]
+labels: ["NFR", "critical"]
 
 body:
   - type: textarea
