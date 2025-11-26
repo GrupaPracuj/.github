@@ -22,7 +22,7 @@ body:
           required: true
   - type: textarea    
     attributes:
-      label: "Ścieżki do projektu w Team City:"
+      label: "Ścieżki do projektu CI (Team City/ADO):"
   - type: textarea    
     attributes:
       label: "Ścieżki do projektu w Sonarqube:"
