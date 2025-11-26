@@ -16,9 +16,9 @@ body:
     attributes:
       label: Potwierdź dodanie właściwych checklist NFR
       options:
-        - label: Potwierdzam, że dodałem i wypełniłem checklisty NFR security.
+        - label: Potwierdzam, że wypełniłem checklisty NFR security.
           required: true
-        - label: Potwierdzam, że dodałem i wypełniłem checklisty NFRy właściwe dla technologii.
+        - label: Potwierdzam, że wypełniłem checklisty NFRy właściwe dla technologii.
           required: true
   - type: textarea    
     attributes:
